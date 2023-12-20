@@ -10,7 +10,7 @@ This simulator is based on C++ to make it easier to understand the behavior of t
 - Supporting CXL Type 1, 2, 3
 
 ### Schematic of the CXL Type 2 platform as implemented in CXL-Exersim.
-
+<img width="694" alt="CXL-platform" src="https://github.com/junseung2/CXL-ExerSim/assets/105153659/cf69c30d-fbad-416b-959f-ce3376da8a2f">
 
 CXL-ExerSim version 1 focuses on the transaction flow in the following scenarios for each CXL Type. 
 1. When a host accesses(memory read/write) host local memory. 
