@@ -7,6 +7,7 @@ This simulator is based on C++ to make it easier to understand the behavior of t
 
 ## Version 1.0
 - Support high-level CXL-based architecture platform
+- Supporting simple CXL.io, CXL.cache and CXL.mem protocol
 - Supporting CXL Type 1, 2, 3
 
 ### Schematic of the CXL Type 2 platform as implemented in CXL-Exersim.
