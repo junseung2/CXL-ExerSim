@@ -9,7 +9,7 @@ This simulator is based on C++ to make it easier to understand the behavior of t
 - Support high-level CXL-based architecture platform
 - Supporting CXL Type 1, 2, 3
 
-###Schematic of the CXL Type 2 platform as implemented in CXL-Exersim.
+### Schematic of the CXL Type 2 platform as implemented in CXL-Exersim.
 (figure)
 CXL-ExerSim version 1 focuses on the transaction flow in the following scenarios for each CXL Type. 
 1. When a host accesses(memory read/write) host local memory. 
