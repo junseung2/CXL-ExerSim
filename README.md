@@ -7,7 +7,8 @@
 - ljs2021@g.skku.edu
 
 <aside>
-💡 CXL-Exersim is designed for students who are new to CXL and is compliant with CXL Spec 2.0.
+💡 This simulator is based on C++ to make it easier to understand the behavior of the CXL platform. All behavior is implemented based on the CXL spec 2.0. 
+
 
 </aside>
 
