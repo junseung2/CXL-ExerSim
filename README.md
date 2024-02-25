@@ -1,52 +1,40 @@
 # CXL-ExerSim
 
-**Department:** Sungkyunkwan University  
-**Author:** Junseung Lee (junseung0728@naver.com)
+# CXL-ExerSim (Compute eXpress Link Controller Exercise and Simulator)
 
-This simulator is based on C++ to make it easier to understand the behavior of the CXL platform. All behavior is implemented based on the CXL spec 2.0. If you see anything wrong with simulator, feel free to email me.
+### Author
 
-## Version 1.0
-- Support high-level CXL-based architecture platform
-- Supporting simple CXL.io, CXL.cache and CXL.mem protocol
-- Supporting CXL Type 1, 2, 3
+**Junseung Lee**
 
-### Schematic of the CXL Type 2 platform as implemented in CXL-Exersim.
-<img width="694" alt="CXL-platform" src="https://github.com/junseung2/CXL-ExerSim/assets/105153659/cf69c30d-fbad-416b-959f-ce3376da8a2f">
+- ljs2021@g.skku.edu
 
-CXL-ExerSim version 1 focuses on the transaction flow in the following scenarios for each CXL Type. 
-1. When a host accesses(memory read/write) host local memory. 
-2. When a host accessing device memory.
-3. When a device accesses device memory.
-4. When a device accesses host local memory.
+<aside>
+💡 CXL-Exersim is designed for students who are new to CXL and is compliant with CXL Spec 2.0.
 
-It also supports bias mode for CXL Type2 platform.  
+</aside>
 
-### Implemented Part
-Host Part 
-- Simple Processor Cores
-- Host Cache & Memory 
-- Host Remote Snoop Filter (HRSF)
-- IOMMU
+# What you get with CXL-ExerSim…
 
-Device Part
-- Simple Device Core
-- DMA Engine
-- Device Remote Snoop Filter (DRSF)
-- Device Local Snoop Filter (DLSF)
-- Device Cache & Memory
-- Transition Agent (TA)
-- Bias Table
+## 01_Transaction Layer
 
+- Understand the concept of cache coherence.
+- Understand the interaction between Host and Device over the CXL.cache/CXL.mem protocol.
 
+## 02_Link Layer
 
-# Future Work. Coming Soon!
+- Understand the flit packing rules for creating valid flits.
+- Understand the retry mechanism of CXL.
+- Understand CRC generation and checks.
 
-## Version 2.0
+## 03_ARB/MUX Layer
 
-- Support detailed CXL.io, CXL.cache, CXL.mem protocol in CXL-based architecture platform
-- Support for cache coherency mechanisms (MESI)
+- Understand dynamic muxing for different flit domains.
+- Understand how vLSM controls the state of the link.
 
+## 04_Logical PHY Layer
 
-## Version 3.0
+- Understand how protocol IDs are generated and flits are sent over CXL link.
 
-- Add Switches in CXL-based architecture platform
+## 05_CXL Switch
+
+- Understand how the CXL Switch works and is controlled.
