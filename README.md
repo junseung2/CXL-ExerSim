@@ -7,7 +7,7 @@
 - ljs2021@g.skku.edu
 
 <aside>
-💡 CXL-ExerSim aims to understand the detailed actions performed by each layer of the CXL controller and the behavior of the CXL switch. It is C++ based, and all behavior is based on the CXL spec 2.0. 
+💡 CXL-ExerSim aims to understand the detailed actions performed by each layer of the CXL controller and the behavior of the CXL switch. It is C++ based, and all behavior is based on the CXL spec.
 
 
 </aside>
