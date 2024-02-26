@@ -1,4 +1,4 @@
-# CXL-ExerSim (Compute eXpress Link Controller Exercise and Simulator)
+# CXL-ExerSim (Compute eXpress Link Exercise and Simulator)
 
 ### Author
 
