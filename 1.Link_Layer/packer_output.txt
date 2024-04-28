@@ -1,0 +1,311 @@
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 3
+D2H_RSP: 5
+S2M_DRS: 6
+S2M_NDR: 9
+
+Flit contains 4 slots.
+Slot 0 [H0]: D2H_DATA: 1, D2H_RSP: 2, S2M_NDR: 1
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 2
+D2H_RSP: 3
+S2M_DRS: 6
+S2M_NDR: 8
+
+rollover count: 1
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 2
+D2H_RSP: 3
+S2M_DRS: 6
+S2M_NDR: 8
+
+Flit contains 4 slots.
+Slot 0 [H0]: D2H_DATA: 1, D2H_RSP: 2, S2M_NDR: 1
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 1
+D2H_RSP: 1
+S2M_DRS: 6
+S2M_NDR: 7
+
+rollover count: 2
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 1
+D2H_RSP: 1
+S2M_DRS: 6
+S2M_NDR: 7
+
+Flit contains 4 slots.
+Slot 0 [H0]: D2H_DATA: 1, D2H_RSP: 1, S2M_NDR: 1
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 6
+
+rollover count: 3
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 6
+
+Flit contains 4 slots.
+Slot 0 [H0]: S2M_NDR: 1
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 5
+
+rollover count: 0
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 7
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 5
+
+Flit contains 4 slots.
+Slot 0 [H0]: S2M_NDR: 1
+Slot 1 [G1]: D2H_REQ: 1, 
+Slot 2 [G1]: D2H_REQ: 1, 
+Slot 3 [G1]: D2H_REQ: 1, 
+
+After Packing MessageCounts: 
+D2H_REQ: 4
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 4
+
+rollover count: 0
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 4
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 4
+
+Flit contains 4 slots.
+Slot 0 [H0]: S2M_NDR: 1
+Slot 1 [G1]: D2H_REQ: 1, 
+Slot 2 [G1]: D2H_REQ: 1, 
+Slot 3 [G1]: D2H_REQ: 1, 
+
+After Packing MessageCounts: 
+D2H_REQ: 1
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 3
+
+rollover count: 0
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 1
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 6
+S2M_NDR: 3
+
+Flit contains 4 slots.
+Slot 0 [H0]: S2M_NDR: 1
+Slot 1 [G1]: D2H_REQ: 1, 
+Slot 2 [G4]: S2M_DRS: 1, S2M_NDR: 1
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 5
+S2M_NDR: 1
+
+rollover count: 3
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 5
+S2M_NDR: 1
+
+Flit contains 4 slots.
+Slot 0 [H0]: S2M_NDR: 1
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 5
+S2M_NDR: 0
+
+rollover count: 0
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 5
+S2M_NDR: 0
+
+Flit contains 4 slots.
+Slot 0 [H3]: S2M_DRS: 1, 
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 4
+S2M_NDR: 0
+
+rollover count: 1
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 4
+S2M_NDR: 0
+
+Flit contains 4 slots.
+Slot 0 [H3]: S2M_DRS: 1, 
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 3
+S2M_NDR: 0
+
+rollover count: 2
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 3
+S2M_NDR: 0
+
+Flit contains 4 slots.
+Slot 0 [H3]: S2M_DRS: 1, 
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 2
+S2M_NDR: 0
+
+rollover count: 3
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 2
+S2M_NDR: 0
+
+Flit contains 4 slots.
+Slot 0 [H3]: S2M_DRS: 1, 
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 1
+S2M_NDR: 0
+
+rollover count: 4
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 1
+S2M_NDR: 0
+
+Flit contains 4 slots.
+Slot 0 [G0]: 16B DATA
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 1
+S2M_NDR: 0
+
+rollover count: 0
+############################
+Before Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 1
+S2M_NDR: 0
+
+Flit contains 4 slots.
+Slot 0 [H3]: S2M_DRS: 1, 
+Slot 1 [G0]: 16B DATA
+Slot 2 [G0]: 16B DATA
+Slot 3 [G0]: 16B DATA
+
+After Packing MessageCounts: 
+D2H_REQ: 0
+D2H_DATA: 0
+D2H_RSP: 0
+S2M_DRS: 0
+S2M_NDR: 0
+
+rollover count: 1
+#########################################################
+############## SIMULATION SUCESSFULLY DONE ##############
+#########################################################

@@ -1,0 +1,600 @@
+Before Send Flit: WrPtr: 0, RdPtr: 0, AckPtr: 0, NumFreeBuf: 64
+### [Flit 0] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 1, RdPtr: 1, AckPtr: 0, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 1, RdPtr: 1, AckPtr: 0, NumFreeBuf: 63
+### [Flit 1] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 1, Num_Retry= 0)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 1, Num_Retry= 1)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 1, Num_Retry= 2)
+After Send Flit: WrPtr: 2, RdPtr: 1, AckPtr: 0, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 2, RdPtr: 1, AckPtr: 0, NumFreeBuf: 62
+### [Flit 1] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 2, RdPtr: 2, AckPtr: 0, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 2, RdPtr: 2, AckPtr: 0, NumFreeBuf: 62
+### [Flit 2] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 3, RdPtr: 3, AckPtr: 0, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 3, RdPtr: 3, AckPtr: 0, NumFreeBuf: 61
+### [Flit 3] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 4, RdPtr: 4, AckPtr: 0, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 4, RdPtr: 4, AckPtr: 0, NumFreeBuf: 60
+### [Flit 4] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 5, RdPtr: 5, AckPtr: 0, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 5, RdPtr: 5, AckPtr: 0, NumFreeBuf: 59
+### [Flit 5] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 6, RdPtr: 6, AckPtr: 0, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 6, RdPtr: 6, AckPtr: 0, NumFreeBuf: 58
+### [Flit 6] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 7, RdPtr: 7, AckPtr: 0, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 7, RdPtr: 7, AckPtr: 0, NumFreeBuf: 57
+### [Flit 7] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 8, RdPtr: 8, AckPtr: 8, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 8, RdPtr: 8, AckPtr: 8, NumFreeBuf: 64
+### [Flit 8] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 9, RdPtr: 9, AckPtr: 8, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 9, RdPtr: 9, AckPtr: 8, NumFreeBuf: 63
+### [Flit 9] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 10, RdPtr: 10, AckPtr: 8, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 10, RdPtr: 10, AckPtr: 8, NumFreeBuf: 62
+### [Flit 10] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 11, RdPtr: 11, AckPtr: 8, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 11, RdPtr: 11, AckPtr: 8, NumFreeBuf: 61
+### [Flit 11] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 12, RdPtr: 12, AckPtr: 8, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 12, RdPtr: 12, AckPtr: 8, NumFreeBuf: 60
+### [Flit 12] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 13, RdPtr: 13, AckPtr: 8, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 13, RdPtr: 13, AckPtr: 8, NumFreeBuf: 59
+### [Flit 13] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 14, RdPtr: 14, AckPtr: 8, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 14, RdPtr: 14, AckPtr: 8, NumFreeBuf: 58
+### [Flit 14] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 15, RdPtr: 15, AckPtr: 8, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 15, RdPtr: 15, AckPtr: 8, NumFreeBuf: 57
+### [Flit 15] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 16, RdPtr: 16, AckPtr: 16, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 16, RdPtr: 16, AckPtr: 16, NumFreeBuf: 64
+### [Flit 16] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 17, RdPtr: 17, AckPtr: 16, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 17, RdPtr: 17, AckPtr: 16, NumFreeBuf: 63
+### [Flit 17] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 18, RdPtr: 18, AckPtr: 16, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 18, RdPtr: 18, AckPtr: 16, NumFreeBuf: 62
+### [Flit 18] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 19, RdPtr: 19, AckPtr: 16, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 19, RdPtr: 19, AckPtr: 16, NumFreeBuf: 61
+### [Flit 19] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 20, RdPtr: 20, AckPtr: 16, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 20, RdPtr: 20, AckPtr: 16, NumFreeBuf: 60
+### [Flit 20] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 21, RdPtr: 21, AckPtr: 16, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 21, RdPtr: 21, AckPtr: 16, NumFreeBuf: 59
+### [Flit 21] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 22, RdPtr: 22, AckPtr: 16, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 22, RdPtr: 22, AckPtr: 16, NumFreeBuf: 58
+### [Flit 22] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 23, RdPtr: 23, AckPtr: 16, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 23, RdPtr: 23, AckPtr: 16, NumFreeBuf: 57
+### [Flit 23] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 24, RdPtr: 24, AckPtr: 24, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 24, RdPtr: 24, AckPtr: 24, NumFreeBuf: 64
+### [Flit 24] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 25, RdPtr: 25, AckPtr: 24, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 25, RdPtr: 25, AckPtr: 24, NumFreeBuf: 63
+### [Flit 25] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 26, RdPtr: 26, AckPtr: 24, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 26, RdPtr: 26, AckPtr: 24, NumFreeBuf: 62
+### [Flit 26] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 26, Num_Retry= 0)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 26, Num_Retry= 1)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 26, Num_Retry= 2)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 26, Num_Retry= 3)
+After Send Flit: WrPtr: 27, RdPtr: 26, AckPtr: 24, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 27, RdPtr: 26, AckPtr: 24, NumFreeBuf: 61
+### [Flit 26] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 27, RdPtr: 27, AckPtr: 24, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 27, RdPtr: 27, AckPtr: 24, NumFreeBuf: 61
+### [Flit 27] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 28, RdPtr: 28, AckPtr: 24, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 28, RdPtr: 28, AckPtr: 24, NumFreeBuf: 60
+### [Flit 28] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 28, Num_Retry= 0)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 28, Num_Retry= 1)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 28, Num_Retry= 2)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 28, Num_Retry= 3)
+After Send Flit: WrPtr: 29, RdPtr: 28, AckPtr: 24, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 29, RdPtr: 28, AckPtr: 24, NumFreeBuf: 59
+### [Flit 28] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 29, RdPtr: 29, AckPtr: 24, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 29, RdPtr: 29, AckPtr: 24, NumFreeBuf: 59
+### [Flit 29] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 29, Num_Retry= 0)
+After Send Flit: WrPtr: 30, RdPtr: 29, AckPtr: 24, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 30, RdPtr: 29, AckPtr: 24, NumFreeBuf: 58
+### [Flit 29] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 30, RdPtr: 30, AckPtr: 24, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 30, RdPtr: 30, AckPtr: 24, NumFreeBuf: 58
+### [Flit 30] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 31, RdPtr: 31, AckPtr: 24, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 31, RdPtr: 31, AckPtr: 24, NumFreeBuf: 57
+### [Flit 31] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 32, RdPtr: 32, AckPtr: 32, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 32, RdPtr: 32, AckPtr: 32, NumFreeBuf: 64
+### [Flit 32] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 33, RdPtr: 33, AckPtr: 32, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 33, RdPtr: 33, AckPtr: 32, NumFreeBuf: 63
+### [Flit 33] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 34, RdPtr: 34, AckPtr: 32, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 34, RdPtr: 34, AckPtr: 32, NumFreeBuf: 62
+### [Flit 34] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 35, RdPtr: 35, AckPtr: 32, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 35, RdPtr: 35, AckPtr: 32, NumFreeBuf: 61
+### [Flit 35] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 36, RdPtr: 36, AckPtr: 32, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 36, RdPtr: 36, AckPtr: 32, NumFreeBuf: 60
+### [Flit 36] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 37, RdPtr: 37, AckPtr: 32, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 37, RdPtr: 37, AckPtr: 32, NumFreeBuf: 59
+### [Flit 37] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 37, Num_Retry= 0)
+After Send Flit: WrPtr: 38, RdPtr: 37, AckPtr: 32, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 38, RdPtr: 37, AckPtr: 32, NumFreeBuf: 58
+### [Flit 37] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 38, RdPtr: 38, AckPtr: 32, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 38, RdPtr: 38, AckPtr: 32, NumFreeBuf: 58
+### [Flit 38] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 39, RdPtr: 39, AckPtr: 32, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 39, RdPtr: 39, AckPtr: 32, NumFreeBuf: 57
+### [Flit 39] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 40, RdPtr: 40, AckPtr: 40, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 40, RdPtr: 40, AckPtr: 40, NumFreeBuf: 64
+### [Flit 40] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 41, RdPtr: 41, AckPtr: 40, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 41, RdPtr: 41, AckPtr: 40, NumFreeBuf: 63
+### [Flit 41] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 42, RdPtr: 42, AckPtr: 40, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 42, RdPtr: 42, AckPtr: 40, NumFreeBuf: 62
+### [Flit 42] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 43, RdPtr: 43, AckPtr: 40, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 43, RdPtr: 43, AckPtr: 40, NumFreeBuf: 61
+### [Flit 43] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 44, RdPtr: 44, AckPtr: 40, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 44, RdPtr: 44, AckPtr: 40, NumFreeBuf: 60
+### [Flit 44] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 45, RdPtr: 45, AckPtr: 40, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 45, RdPtr: 45, AckPtr: 40, NumFreeBuf: 59
+### [Flit 45] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 46, RdPtr: 46, AckPtr: 40, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 46, RdPtr: 46, AckPtr: 40, NumFreeBuf: 58
+### [Flit 46] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 47, RdPtr: 47, AckPtr: 40, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 47, RdPtr: 47, AckPtr: 40, NumFreeBuf: 57
+### [Flit 47] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 48, RdPtr: 48, AckPtr: 48, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 48, RdPtr: 48, AckPtr: 48, NumFreeBuf: 64
+### [Flit 48] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 49, RdPtr: 49, AckPtr: 48, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 49, RdPtr: 49, AckPtr: 48, NumFreeBuf: 63
+### [Flit 49] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 50, RdPtr: 50, AckPtr: 48, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 50, RdPtr: 50, AckPtr: 48, NumFreeBuf: 62
+### [Flit 50] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 51, RdPtr: 51, AckPtr: 48, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 51, RdPtr: 51, AckPtr: 48, NumFreeBuf: 61
+### [Flit 51] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 52, RdPtr: 52, AckPtr: 48, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 52, RdPtr: 52, AckPtr: 48, NumFreeBuf: 60
+### [Flit 52] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 53, RdPtr: 53, AckPtr: 48, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 53, RdPtr: 53, AckPtr: 48, NumFreeBuf: 59
+### [Flit 53] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 54, RdPtr: 54, AckPtr: 48, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 54, RdPtr: 54, AckPtr: 48, NumFreeBuf: 58
+### [Flit 54] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 55, RdPtr: 55, AckPtr: 48, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 55, RdPtr: 55, AckPtr: 48, NumFreeBuf: 57
+### [Flit 55] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 56, RdPtr: 56, AckPtr: 56, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 56, RdPtr: 56, AckPtr: 56, NumFreeBuf: 64
+### [Flit 56] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 56, Num_Retry= 0)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 56, Num_Retry= 1)
+After Send Flit: WrPtr: 57, RdPtr: 56, AckPtr: 56, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 57, RdPtr: 56, AckPtr: 56, NumFreeBuf: 63
+### [Flit 56] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 56, Num_Retry= 0)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 56, Num_Retry= 1)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 56, Num_Retry= 2)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 56, Num_Retry= 3)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 56, Num_Retry= 4)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+###  NEED TO LINK RETRAINING  ###
+After Send Flit: WrPtr: 57, RdPtr: 56, AckPtr: 56, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 57, RdPtr: 56, AckPtr: 56, NumFreeBuf: 63
+### [Flit 56] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 57, RdPtr: 57, AckPtr: 56, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 57, RdPtr: 57, AckPtr: 56, NumFreeBuf: 63
+### [Flit 57] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 58, RdPtr: 58, AckPtr: 56, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 58, RdPtr: 58, AckPtr: 56, NumFreeBuf: 62
+### [Flit 58] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 59, RdPtr: 59, AckPtr: 56, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 59, RdPtr: 59, AckPtr: 56, NumFreeBuf: 61
+### [Flit 59] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 60, RdPtr: 60, AckPtr: 56, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 60, RdPtr: 60, AckPtr: 56, NumFreeBuf: 60
+### [Flit 60] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 61, RdPtr: 61, AckPtr: 56, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 61, RdPtr: 61, AckPtr: 56, NumFreeBuf: 59
+### [Flit 61] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 62, RdPtr: 62, AckPtr: 56, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 62, RdPtr: 62, AckPtr: 56, NumFreeBuf: 58
+### [Flit 62] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 63, RdPtr: 63, AckPtr: 56, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 63, RdPtr: 63, AckPtr: 56, NumFreeBuf: 57
+### [Flit 63] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 0, RdPtr: 0, AckPtr: 0, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 0, RdPtr: 0, AckPtr: 0, NumFreeBuf: 64
+### [Flit 64] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 1, RdPtr: 1, AckPtr: 0, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 1, RdPtr: 1, AckPtr: 0, NumFreeBuf: 63
+### [Flit 65] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 2, RdPtr: 2, AckPtr: 0, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 2, RdPtr: 2, AckPtr: 0, NumFreeBuf: 62
+### [Flit 66] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 3, RdPtr: 3, AckPtr: 0, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 3, RdPtr: 3, AckPtr: 0, NumFreeBuf: 61
+### [Flit 67] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 4, RdPtr: 4, AckPtr: 0, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 4, RdPtr: 4, AckPtr: 0, NumFreeBuf: 60
+### [Flit 68] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 5, RdPtr: 5, AckPtr: 0, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 5, RdPtr: 5, AckPtr: 0, NumFreeBuf: 59
+### [Flit 69] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 6, RdPtr: 6, AckPtr: 0, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 6, RdPtr: 6, AckPtr: 0, NumFreeBuf: 58
+### [Flit 70] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 7, RdPtr: 7, AckPtr: 0, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 7, RdPtr: 7, AckPtr: 0, NumFreeBuf: 57
+### [Flit 71] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 8, RdPtr: 8, AckPtr: 8, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 8, RdPtr: 8, AckPtr: 8, NumFreeBuf: 64
+### [Flit 72] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 9, RdPtr: 9, AckPtr: 8, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 9, RdPtr: 9, AckPtr: 8, NumFreeBuf: 63
+### [Flit 73] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 10, RdPtr: 10, AckPtr: 8, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 10, RdPtr: 10, AckPtr: 8, NumFreeBuf: 62
+### [Flit 74] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 11, RdPtr: 11, AckPtr: 8, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 11, RdPtr: 11, AckPtr: 8, NumFreeBuf: 61
+### [Flit 75] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 12, RdPtr: 12, AckPtr: 8, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 12, RdPtr: 12, AckPtr: 8, NumFreeBuf: 60
+### [Flit 76] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 13, RdPtr: 13, AckPtr: 8, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 13, RdPtr: 13, AckPtr: 8, NumFreeBuf: 59
+### [Flit 77] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 14, RdPtr: 14, AckPtr: 8, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 14, RdPtr: 14, AckPtr: 8, NumFreeBuf: 58
+### [Flit 78] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 15, RdPtr: 15, AckPtr: 8, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 15, RdPtr: 15, AckPtr: 8, NumFreeBuf: 57
+### [Flit 79] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 16, RdPtr: 16, AckPtr: 16, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 16, RdPtr: 16, AckPtr: 16, NumFreeBuf: 64
+### [Flit 80] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 17, RdPtr: 17, AckPtr: 16, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 17, RdPtr: 17, AckPtr: 16, NumFreeBuf: 63
+### [Flit 81] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 18, RdPtr: 18, AckPtr: 16, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 18, RdPtr: 18, AckPtr: 16, NumFreeBuf: 62
+### [Flit 82] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 19, RdPtr: 19, AckPtr: 16, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 19, RdPtr: 19, AckPtr: 16, NumFreeBuf: 61
+### [Flit 83] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 20, RdPtr: 20, AckPtr: 16, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 20, RdPtr: 20, AckPtr: 16, NumFreeBuf: 60
+### [Flit 84] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 21, RdPtr: 21, AckPtr: 16, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 21, RdPtr: 21, AckPtr: 16, NumFreeBuf: 59
+### [Flit 85] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 22, RdPtr: 22, AckPtr: 16, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 22, RdPtr: 22, AckPtr: 16, NumFreeBuf: 58
+### [Flit 86] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 23, RdPtr: 23, AckPtr: 16, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 23, RdPtr: 23, AckPtr: 16, NumFreeBuf: 57
+### [Flit 87] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 24, RdPtr: 24, AckPtr: 24, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 24, RdPtr: 24, AckPtr: 24, NumFreeBuf: 64
+### [Flit 88] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 25, RdPtr: 25, AckPtr: 24, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 25, RdPtr: 25, AckPtr: 24, NumFreeBuf: 63
+### [Flit 89] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 26, RdPtr: 26, AckPtr: 24, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 26, RdPtr: 26, AckPtr: 24, NumFreeBuf: 62
+### [Flit 90] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 27, RdPtr: 27, AckPtr: 24, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 27, RdPtr: 27, AckPtr: 24, NumFreeBuf: 61
+### [Flit 91] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 27, Num_Retry= 0)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 27, Num_Retry= 1)
+After Send Flit: WrPtr: 28, RdPtr: 27, AckPtr: 24, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 28, RdPtr: 27, AckPtr: 24, NumFreeBuf: 60
+### [Flit 91] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 28, RdPtr: 28, AckPtr: 24, NumFreeBuf: 60
+
+Before Send Flit: WrPtr: 28, RdPtr: 28, AckPtr: 24, NumFreeBuf: 60
+### [Flit 92] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 29, RdPtr: 29, AckPtr: 24, NumFreeBuf: 59
+
+Before Send Flit: WrPtr: 29, RdPtr: 29, AckPtr: 24, NumFreeBuf: 59
+### [Flit 93] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 30, RdPtr: 30, AckPtr: 24, NumFreeBuf: 58
+
+Before Send Flit: WrPtr: 30, RdPtr: 30, AckPtr: 24, NumFreeBuf: 58
+### [Flit 94] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 31, RdPtr: 31, AckPtr: 24, NumFreeBuf: 57
+
+Before Send Flit: WrPtr: 31, RdPtr: 31, AckPtr: 24, NumFreeBuf: 57
+### [Flit 95] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 32, RdPtr: 32, AckPtr: 32, NumFreeBuf: 64
+
+Before Send Flit: WrPtr: 32, RdPtr: 32, AckPtr: 32, NumFreeBuf: 64
+### [Flit 96] CRC Check ERROR. Retry System [START]  ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 32, Num_Retry= 0)
+### RETRY FAIL. TRY TO RETRY AGAIN ###
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Frame
+RETRY.Req(Eseq= 32, Num_Retry= 1)
+After Send Flit: WrPtr: 33, RdPtr: 32, AckPtr: 32, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 33, RdPtr: 32, AckPtr: 32, NumFreeBuf: 63
+### [Flit 96] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 33, RdPtr: 33, AckPtr: 32, NumFreeBuf: 63
+
+Before Send Flit: WrPtr: 33, RdPtr: 33, AckPtr: 32, NumFreeBuf: 63
+### [Flit 97] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 34, RdPtr: 34, AckPtr: 32, NumFreeBuf: 62
+
+Before Send Flit: WrPtr: 34, RdPtr: 34, AckPtr: 32, NumFreeBuf: 62
+### [Flit 98] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 35, RdPtr: 35, AckPtr: 32, NumFreeBuf: 61
+
+Before Send Flit: WrPtr: 35, RdPtr: 35, AckPtr: 32, NumFreeBuf: 61
+### [Flit 99] CRC Check Sucessfully ###
+After Send Flit: WrPtr: 36, RdPtr: 36, AckPtr: 32, NumFreeBuf: 60
+
+#########################################################
+############## SIMULATION SUCESSFULLY DONE ##############
+#########################################################
