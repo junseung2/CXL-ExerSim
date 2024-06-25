@@ -1,3 +1,9 @@
+/*
+    Author  : Junseung Lee
+    email   : ljs2021@g.skku.edu
+    Date    : 2024.06.25
+*/
+
 #include <iostream>
 #include <unordered_map>
 #include <vector>
