@@ -1,7 +1,6 @@
 /*
     Author  : Junseung Lee
     email   : ljs2021@g.skku.edu
-    Date    : 2024.06.25
 */
 
 #include <iostream>
@@ -21,225 +20,297 @@ class DLSF;
 class DRSF;
 class HRSF;
 
-class Memory {
+class Memory
+{
 public:
     virtual void read(int address) = 0;
     virtual void write(int address, int data) = 0;
 };
 
-class Cache {
+class Cache
+{
 public:
     virtual bool snoop(int address) = 0;
     virtual void update(int address, int data) = 0;
     virtual int getData(int address) = 0;
-    virtual void writeBack(int address, Memory* memory) = 0;
+    virtual void writeBack(int address, Memory *memory) = 0;
 };
 
-class SnoopFilter {
+class SnoopFilter
+{
 public:
     virtual bool check(int address) = 0;
     virtual void registerAddress(int address) = 0;
 };
 
-class HostMemory : public Memory {
+class HostMemory : public Memory
+{
     std::unordered_map<int, int> storage;
+
 public:
-    void read(int address) override {
+    void read(int address) override
+    {
         std::cout << "Host Memory: Read from address 0x" << std::hex << address << std::dec << std::endl;
     }
-    void write(int address, int data) override {
+    void write(int address, int data) override
+    {
         std::cout << "Host Memory: Write to address 0x" << std::hex << address << std::dec << " data: " << data << std::endl;
         storage[address] = data;
     }
 };
 
-class DeviceMemory : public Memory {
+class DeviceMemory : public Memory
+{
     std::unordered_map<int, int> storage;
+
 public:
-    void read(int address) override {
+    void read(int address) override
+    {
         std::cout << "Device Memory: Read from address 0x" << std::hex << address << std::dec << std::endl;
     }
-    void write(int address, int data) override {
+    void write(int address, int data) override
+    {
         std::cout << "Device Memory: Write to address 0x" << std::hex << address << std::dec << " data: " << data << std::endl;
         storage[address] = data;
     }
 };
 
-class HostCache : public Cache {
+class HostCache : public Cache
+{
     std::unordered_map<int, int> cache;
+
 public:
-    bool snoop(int address) override {
+    bool snoop(int address) override
+    {
         std::cout << "Host Cache: Snoop address 0x" << std::hex << address << std::dec << std::endl;
         return cache.find(address) != cache.end();
     }
-    void update(int address, int data) override {
+    void update(int address, int data) override
+    {
         std::cout << "Host Cache: Update address 0x" << std::hex << address << std::dec << " with data: " << data << std::endl;
         cache[address] = data;
     }
-    int getData(int address) override {
+    int getData(int address) override
+    {
         return cache[address];
     }
-    void writeBack(int address, Memory* memory) override {
+    void writeBack(int address, Memory *memory) override
+    {
         std::cout << "Host Cache: Write back to Memory at address 0x" << std::hex << address << std::dec << std::endl;
         memory->write(address, cache[address]);
     }
 };
 
-class DeviceCache : public Cache {
+class DeviceCache : public Cache
+{
     std::unordered_map<int, int> cache;
+
 public:
-    bool snoop(int address) override {
+    bool snoop(int address) override
+    {
         std::cout << "Device Cache: Snoop address 0x" << std::hex << address << std::dec << std::endl;
         return cache.find(address) != cache.end();
     }
-    void update(int address, int data) override {
+    void update(int address, int data) override
+    {
         std::cout << "Device Cache: Update address 0x" << std::hex << address << std::dec << " with data: " << data << std::endl;
         cache[address] = data;
     }
-    int getData(int address) override {
+    int getData(int address) override
+    {
         return cache[address];
     }
-    void writeBack(int address, Memory* memory) override {
+    void writeBack(int address, Memory *memory) override
+    {
         std::cout << "Device Cache: Write back to Memory at address 0x" << std::hex << address << std::dec << std::endl;
         memory->write(address, cache[address]);
     }
 };
 
-class DLSF : public SnoopFilter {
+class DLSF : public SnoopFilter
+{
     std::vector<int> addresses;
+
 public:
-    bool check(int address) override {
+    bool check(int address) override
+    {
         std::cout << "DLSF: Check address 0x" << std::hex << address << std::dec << std::endl;
         return std::find(addresses.begin(), addresses.end(), address) != addresses.end();
     }
-    void registerAddress(int address) override {
+    void registerAddress(int address) override
+    {
         std::cout << "DLSF: Register address 0x" << std::hex << address << std::dec << std::endl;
         addresses.push_back(address);
     }
 };
 
-class DRSF : public SnoopFilter {
+class DRSF : public SnoopFilter
+{
     std::vector<int> addresses;
+
 public:
-    bool check(int address) override {
+    bool check(int address) override
+    {
         std::cout << "DRSF: Check address 0x" << std::hex << address << std::dec << std::endl;
         return std::find(addresses.begin(), addresses.end(), address) != addresses.end();
     }
-    void registerAddress(int address) override {
+    void registerAddress(int address) override
+    {
         std::cout << "DRSF: Register address 0x" << std::hex << address << std::dec << std::endl;
         addresses.push_back(address);
     }
 };
 
-class HRSF : public SnoopFilter {
+class HRSF : public SnoopFilter
+{
     std::vector<int> addresses;
+
 public:
-    bool check(int address) override {
+    bool check(int address) override
+    {
         std::cout << "HRSF: Check address 0x" << std::hex << address << std::dec << std::endl;
         return std::find(addresses.begin(), addresses.end(), address) != addresses.end();
     }
-    void registerAddress(int address) override {
+    void registerAddress(int address) override
+    {
         std::cout << "HRSF: Register address 0x" << std::hex << address << std::dec << std::endl;
         addresses.push_back(address);
     }
 };
 
-class ProcessorCore {
+class ProcessorCore
+{
 public:
-    void accessHostMemory(int address, HostMemory* memory, HostCache* cache, HRSF* hrsf);
-    void accessDeviceMemory(int address, DeviceMemory* memory, DeviceCache* cache, DRSF* drsf);
+    void accessHostMemory(int address, HostMemory *memory, HostCache *cache, HRSF *hrsf);
+    void accessDeviceMemory(int address, DeviceMemory *memory, DeviceCache *cache, DRSF *drsf);
 };
 
-class DeviceCore {
+class DeviceCore
+{
 public:
-    void accessDeviceMemory(int address, DeviceMemory* memory, DeviceCache* cache, DRSF* drsf);
-    void accessHostMemory(int address, HostMemory* memory, HostCache* cache, DLSF* dlsf);
+    void accessDeviceMemory(int address, DeviceMemory *memory, DeviceCache *cache, DRSF *drsf);
+    void accessHostMemory(int address, HostMemory *memory, HostCache *cache, DLSF *dlsf);
 };
 
-void ProcessorCore::accessHostMemory(int address, HostMemory* memory, HostCache* cache, HRSF* hrsf) {
+void ProcessorCore::accessHostMemory(int address, HostMemory *memory, HostCache *cache, HRSF *hrsf)
+{
     std::cout << "Processor Core: Accessing Host Memory at address 0x" << std::hex << address << std::dec << std::endl;
-    if (hrsf->check(address)) {
-        if (cache->snoop(address)) {
+    if (hrsf->check(address))
+    {
+        if (cache->snoop(address))
+        {
             std::cout << "Processor Core: Address found in Host Cache with data: " << cache->getData(address) << std::endl;
-        } else {
+        }
+        else
+        {
             std::cout << "Processor Core: Address not found in Host Cache, reading from Host Memory" << std::endl;
             memory->read(address);
         }
-    } else {
+    }
+    else
+    {
         std::cout << "Processor Core: Address not found in HRSF, reading from Host Memory" << std::endl;
         memory->read(address);
     }
 }
 
-void ProcessorCore::accessDeviceMemory(int address, DeviceMemory* memory, DeviceCache* cache, DRSF* drsf) {
+void ProcessorCore::accessDeviceMemory(int address, DeviceMemory *memory, DeviceCache *cache, DRSF *drsf)
+{
     std::cout << "Processor Core: Accessing Device Memory at address 0x" << std::hex << address << std::dec << std::endl;
-    if (drsf->check(address)) {
-        if (cache->snoop(address)) {
+    if (drsf->check(address))
+    {
+        if (cache->snoop(address))
+        {
             std::cout << "Processor Core: Address found in Device Cache with data: " << cache->getData(address) << std::endl;
-        } else {
+        }
+        else
+        {
             std::cout << "Processor Core: Address not found in Device Cache, reading from Device Memory" << std::endl;
             memory->read(address);
         }
-    } else {
+    }
+    else
+    {
         std::cout << "Processor Core: Address not found in DRSF, reading from Device Memory" << std::endl;
         memory->read(address);
     }
 }
 
-void DeviceCore::accessDeviceMemory(int address, DeviceMemory* memory, DeviceCache* cache, DRSF* drsf) {
+void DeviceCore::accessDeviceMemory(int address, DeviceMemory *memory, DeviceCache *cache, DRSF *drsf)
+{
     std::cout << "Device Core: Accessing Device Memory at address 0x" << std::hex << address << std::dec << std::endl;
-    if (drsf->check(address)) {
-        if (cache->snoop(address)) {
+    if (drsf->check(address))
+    {
+        if (cache->snoop(address))
+        {
             std::cout << "Device Core: Address found in Device Cache with data: " << cache->getData(address) << std::endl;
             // Handle snoop (could involve more logic here)
-        } else {
+        }
+        else
+        {
             std::cout << "Device Core: Address not found in Device Cache, reading from Device Memory" << std::endl;
             memory->read(address);
         }
-    } else {
+    }
+    else
+    {
         std::cout << "Device Core: Address not found in DRSF, reading from Device Memory" << std::endl;
         memory->read(address);
     }
 }
 
-void DeviceCore::accessHostMemory(int address, HostMemory* memory, HostCache* cache, DLSF* dlsf) {
+void DeviceCore::accessHostMemory(int address, HostMemory *memory, HostCache *cache, DLSF *dlsf)
+{
     std::cout << "Device Core: Accessing Host Memory at address 0x" << std::hex << address << std::dec << std::endl;
-    if (dlsf->check(address)) {
-        if (cache->snoop(address)) {
+    if (dlsf->check(address))
+    {
+        if (cache->snoop(address))
+        {
             std::cout << "Device Core: Address found in Host Cache with data: " << cache->getData(address) << std::endl;
-        } else {
+        }
+        else
+        {
             std::cout << "Device Core: Address not found in Host Cache, reading from Host Memory" << std::endl;
             memory->read(address);
         }
-    } else {
+    }
+    else
+    {
         std::cout << "Device Core: Address not found in DLSF, reading from Host Memory" << std::endl;
         memory->read(address);
     }
 }
 
-class TransactionLog {
+class TransactionLog
+{
     std::vector<std::string> logs;
+
 public:
-    void log(const std::string& entry) {
+    void log(const std::string &entry)
+    {
         logs.push_back(entry);
     }
-    void displayLogs() {
-        for (const auto& log : logs) {
+    void displayLogs()
+    {
+        for (const auto &log : logs)
+        {
             std::cout << log << std::endl;
         }
     }
 };
 
-std::string formatLogEntry(const std::string& component, const std::string& action, int address, const std::string& result) {
+std::string formatLogEntry(const std::string &component, const std::string &action, int address, const std::string &result)
+{
     std::ostringstream oss;
-    oss << std::setw(15) << std::left << component 
-        << std::setw(25) << std::left << action 
-        << "Address: 0x" << std::hex << address << std::dec 
+    oss << std::setw(15) << std::left << component
+        << std::setw(25) << std::left << action
+        << "Address: 0x" << std::hex << address << std::dec
         << " | " << result;
     return oss.str();
 }
 
-int main() {
+int main()
+{
     // Create instances of each component
     HostMemory hostMemory;
     DeviceMemory deviceMemory;
