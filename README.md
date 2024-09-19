@@ -37,3 +37,16 @@
 ## 05_CXL Switch
 
 - Understand how the CXL Switch works and is controlled.
+
+
+| TABLE I: System configurations.             |
+|---------------------------------------------|
+| **Dual-socket server system**               |
+| **Component** | **Description**             |
+|--------------|------------------------------|
+| OS (kernel)  | Ubuntu 22.04.2 LTS (Linux kernel v6.2) |
+| CPU          | 2x AMD® EPYC 9124 CPUs @3.0 GHz, 16 cores |
+| Memory       | 4x 32GB DDR5-4800 channels    |
+|              | 1x 2TB NVMe M.2 SSD           |
+| FPGA         | AMD(Xilinx) Versal HBM Series VHK 158 |
+| PCIe         | Gen 5                         |
